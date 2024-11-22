@@ -9,7 +9,6 @@ const byteSize = (str) => {
 
     return encodedBytes.length;
 };
-};
 
 // Do not change the code below
 const str = prompt("Enter some string.");
