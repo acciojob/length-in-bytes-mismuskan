@@ -5,12 +5,9 @@ const byteSize = (str) => {
     const encodedBytes = encoder.encode(str);
 
     // Count the number of bytes
-	let bytecount=0;
-    for (let index = 0; index < encodedBytes.length; index++) {
-        byteCount++;
-    }
+	
 
-    return byteCount;
+    return byteCount.length;
 };
 };
 
