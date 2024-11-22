@@ -1,13 +1,14 @@
 const byteSize = (str) => {
   // write your code here
-	// let count=0;
-	// for(let i=0;i<str.length;i++){
-	// 	count++;
-	// 	return count;
-	// }
+	let count=0;
+	for(let i=0;i<str.length;i++){
+		count++;
+		return count;
+	}
 if (str === '') {
         return 0;
     }
+	console.log(count);
 
     let byteCount = 0;
 
