@@ -7,7 +7,7 @@ const byteSize = (str) => {
     // Count the number of bytes
 	
 
-    return byteCount.length;
+    return encodedBytes.length;
 };
 };
 
